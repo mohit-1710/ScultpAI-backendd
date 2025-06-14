@@ -29,7 +29,6 @@ The videos returned by the backend will be accessible at:
 
 `http://localhost:5000/videos/{filename}.mp4`
 
-The frontend has been configured to handle these paths correctly.
 
 ## Testing Video Playback
 
