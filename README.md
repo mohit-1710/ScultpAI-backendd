@@ -39,12 +39,3 @@ To test if video serving is working properly:
 2. Try accessing it directly in your browser at `http://localhost:5000/videos/test.mp4`
 3. If the video plays in your browser, the static file serving is configured correctly.
 
-## Troubleshooting
-
-If videos are not displaying in the frontend:
-
-1. Check the browser console for network errors
-2. Verify that the video file exists in the specified directory
-3. Ensure the correct path is being returned from the backend API
-4. Check that the CORS settings allow the frontend to access the backend
-5. Verify the permissions on the video directory and files 
