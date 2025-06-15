@@ -29,7 +29,6 @@ The videos returned by the backend will be accessible at:
 
 `http://localhost:5000/videos/{filename}.mp4`
 
-The frontend has been configured to handle these paths correctly.
 
 ## Testing Video Playback
 
@@ -37,5 +36,5 @@ To test if video serving is working properly:
 
 1. Place a test video file (e.g., `test.mp4`) in your configured `MANIM_OUTPUT_DIR` directory.
 2. Try accessing it directly in your browser at `http://localhost:5000/videos/test.mp4`
-3. If the video plays in your browser, the static file serving is configured correctly.
+
 
